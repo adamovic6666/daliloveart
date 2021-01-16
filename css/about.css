@@ -1,0 +1,125 @@
+html {
+    background: none;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 40%, transparent),
+    url("../media/images/wallpapers/about.jpg") no-repeat center;
+    background-size: auto;
+}
+
+.contact-info {
+    top: 4rem;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-justify: inter-word;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.contact-info h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin: 0.8rem 0;
+    color: white;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.664);
+    margin: 0.1rem 0;
+}
+
+.isolation {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+}
+
+.special {
+    margin-top: 0.5rem;
+}
+
+.isolation p {
+    color: white;
+}
+
+
+.line-color {
+    width: 5rem;
+    height: 0.1rem;
+    background-color: white;
+    right: 0;
+    top: 1.5rem;
+    position: absolute;
+}
+
+.white {
+    color: white;
+}
+
+@media (min-width:600px) {
+    
+    .contact-info {
+        width: 95%;
+        top: 4rem;
+        transform: translate(-50%);
+        left: 50%;
+    }
+    
+}
+
+@media (min-width:768px) {
+    
+    .contact-info {
+        width: 95%;
+        top: 8rem;
+        transform: translate(-50%);
+        left: 50%;
+    }
+    
+}
+
+@media (min-width:1200px) {
+
+    body {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 50%, transparent),
+        url("../media/images/wallpapers/about.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .contact-info {
+        top: 8%;
+        transform: translate(-10%,20%);
+        left: 10%;
+        width: 35%;
+        text-justify: inter-word;
+    }
+    
+    .contact-info h1 {
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .contact-info p {
+        letter-spacing: 0.1rem;
+        margin: 0.5rem 0;
+    }
+    
+    .line-color {
+        width: 6rem;
+        margin-top: 0.5rem;
+    }
+
+    .white {
+        margin: 1rem 0;
+    }
+    
+
+}
