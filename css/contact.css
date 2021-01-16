@@ -1,0 +1,84 @@
+html {
+    background: none;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.726) 100%, transparent),
+    url("../media/images/wallpapers/contact.jpg") no-repeat center;
+    background-size: auto;
+}
+
+.contact-info {
+    position: absolute;
+    top: 55%;
+    transform: translate(-15%, -50%);
+    left: 20%;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.contact-info h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+}
+
+.line-color {
+    width: 4rem;
+    background-color: rgb(255, 255, 255);
+    height: 0.1rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+@media (min-width:600px) {
+
+    .contact-info {
+        width: 95%;
+        top: 4.5rem;
+        transform: translate(-50%);
+        left: 52%;
+    }
+
+    body {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 50%, transparent),
+        url("../media/images/wallpapers/contact.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .line-color {
+        margin-bottom: 2rem;
+    }
+
+}  
+
+@media (min-width:768px) {
+
+    .contact-info {
+        top: 45%;
+        transform: translate(-40%, -50%);
+        left: 45%;
+    }
+    
+    .contact-info h1 {
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem;
+    }
+    
+    .contact-info p {
+        letter-spacing: 0.2rem;
+    }
+    
+    .line-color {
+        margin-top: 2rem;
+    }
+
+}
